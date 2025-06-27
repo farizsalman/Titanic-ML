@@ -2,9 +2,9 @@
 import joblib
 import streamlit as st
 
-le1=joblib.load(r"C:\Users\salma\OneDrive\Desktop\project\le1.pk1")
-le2=joblib.load(r"C:\Users\salma\OneDrive\Desktop\project\le2.pk1")
-model=joblib.load(r'C:\Users\salma\OneDrive\Desktop\project\titanic_model.pk1')
+le1=joblib.load("le1.pk1")
+le2=joblib.load("le2.pk1")
+model=joblib.load('titanic_model.pk1')
 
 
 st.header('Titanic')
